@@ -42,3 +42,4 @@ def minimumAbsDifference(arr):
         if arr[j] - arr[j-1] == maxx:
             result.append([arr[j-1], arr[j]])  # Добавление подходящих пар
     return result
+print(minimumAbsDifference([1, 3, 2]))
